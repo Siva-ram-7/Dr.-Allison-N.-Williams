@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "doctorOffice": {
+      "src": "https://picsum.photos/seed/office/1920/1080",
+      "width": 1920,
+      "height": 1080,
+      "alt": "Modern and welcoming doctor's office interior",
+      "hint": "doctor office"
+    }
+  },
+  "about": {
+    "drWilliams": {
+      "src": "https://picsum.photos/seed/doctor/600/700",
+      "width": 600,
+      "height": 700,
+      "alt": "Professional portrait of Dr. Allison N. Williams",
+      "hint": "female doctor"
+    }
+  },
+  "wellness": {
+    "lab": {
+      "src": "https://picsum.photos/seed/lab/600/400",
+      "width": 600,
+      "height": 400,
+      "alt": "Advanced laboratory equipment for wellness testing",
+      "hint": "laboratory equipment"
+    },
+    "seniorCare": {
+      "src": "https://picsum.photos/seed/senior/600/400",
+      "width": 600,
+      "height": 400,
+      "alt": "Doctor consulting with a senior patient",
+      "hint": "senior care"
+    }
+  },
+  "whyChoose": {
+    "doctorPatient": {
+      "src": "https://picsum.photos/seed/consult/600/400",
+      "width": 600,
+      "height": 400,
+      "alt": "Doctor having a conversation with a patient",
+      "hint": "doctor patient"
+    }
+  },
+  "testimonials": [
+    {
+      "src": "https://picsumphotos.com/seed/avatar1/48/48",
+      "quote": "Dr. Williams and her staff present a warm and welcoming atmosphere. … my visit was not rushed.",
+      "name": "Patient Review",
+      "role": "MDVIP Member",
+      "hint": "person avatar"
+    },
+    {
+      "src": "https://picsum.photos.com/seed/avatar2/48/48",
+      "quote": "I am a concierge patient of hers through MDVIP … this has changed my life.",
+      "name": "Patient Review",
+      "role": "MDVIP Member",
+      "hint": "person avatar"
+    },
+    {
+      "src": "https://picsum.photos.com/seed/avatar3/48/48",
+      "quote": "The peace of mind that comes with having 24/7 access to my doctor is invaluable. Crofton Family Practice truly puts patients first. Dr. Williams is a true partner in my health journey.",
+      "name": "D. Brown",
+      "role": "MDVIP Member since 2023",
+      "hint": "person avatar"
+    },
+    {
+      "src": "https://picsum.photos.com/seed/avatar4/48/48",
+      "quote": "The annual wellness screening is incredibly thorough. It caught an issue early for me, and Dr. Williams was with me every step of the way. I can't recommend this practice enough.",
+      "name": "S. Lee",
+      "role": "MDVIP Member since 2020",
+      "hint": "person avatar"
+    },
+    {
+      "src": "https://picsum.photos.com/seed/avatar5/48/48",
+      "quote": "Moving to a concierge model was the best decision for my health. The focus on preventative care is exactly what I was looking for. Dr. Williams is an exceptional physician.",
+      "name": "B. Garcia",
+      "role": "MDVIP Member since 2022",
+      "hint": "person avatar"
+    },
+    {
+      "src": "https://picsum.photos.com/seed/avatar6/48/48",
+      "quote": "The staff is always so welcoming and efficient. From scheduling to follow-ups, everything is handled with professionalism and care. It feels like a family.",
+      "name": "T. Chen",
+      "role": "MDVIP Member since 2021",
+      "hint": "person avatar"
+    }
+  ],
+  "contact": {
+    "interior": {
+      "src": "https://picsum.photos/seed/interior/1920/1080",
+      "width": 1920,
+      "height": 1080,
+      "alt": "Bright and clean clinic interior",
+      "hint": "clinic interior"
+    },
+    "map": {
+      "src": "https://picsum.photos/seed/map/600/400",
+      "width": 600,
+      "height": 400,
+      "alt": "Map showing the location of Crofton Family Practice",
+      "hint": "clinic map"
+    }
+  }
+}
