@@ -11,6 +11,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Star } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import placeholderImages from "@/lib/placeholder-images.json";
 import { useSearchParams } from 'next/navigation'
 import React from "react";
@@ -372,6 +373,101 @@ function PageContent() {
         </div>
       </section>
 
+      {/* Our Office Section */}
+      <section id="our-office" className="bg-secondary/20 subtle-bg">
+        <div className="container mx-auto px-6 py-16 md:py-24">
+          <div className="text-center max-w-3xl mx-auto mb-12 animate-fade-in-up">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Our Welcoming Office Space</h2>
+            <p className="text-lg text-muted-foreground mt-4">
+              Step into a warm, comfortable environment designed with your comfort and well-being in mind. Our thoughtfully designed office space reflects our commitment to providing a peaceful, professional setting for your healthcare journey.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* Reception Area */}
+            <Card className="bg-background shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+              <CardHeader>
+                <CardTitle className="font-headline text-2xl">Professional Reception Area</CardTitle>
+                <CardDescription>
+                  Our welcoming reception desk is your first point of contact, where our friendly staff ensures a smooth check-in experience.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <div className="relative h-64 rounded-lg overflow-hidden cursor-pointer group">
+                      <Image 
+                        src={placeholderImages.office.reception.src} 
+                        alt={placeholderImages.office.reception.alt} 
+                        fill 
+                        className="object-cover transition-transform duration-300 group-hover:scale-105" 
+                        data-ai-hint={placeholderImages.office.reception.hint} 
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center">
+                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 px-4 py-2 rounded-lg text-sm font-semibold">
+                          Click to view full size
+                        </div>
+                      </div>
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-7xl w-[95vw] p-4 bg-black/90 border-none">
+                    <div className="relative w-full h-[85vh] rounded-lg overflow-hidden bg-black/50">
+                      <Image 
+                        src={placeholderImages.office.reception.src} 
+                        alt={placeholderImages.office.reception.alt} 
+                        fill 
+                        className="object-contain" 
+                        data-ai-hint={placeholderImages.office.reception.hint} 
+                      />
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              </CardContent>
+            </Card>
+
+            {/* Waiting Area */}
+            <Card className="bg-background shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+              <CardHeader>
+                <CardTitle className="font-headline text-2xl">Comfortable Waiting Area</CardTitle>
+                <CardDescription>
+                  Relax in our cozy waiting room, thoughtfully designed to provide a calm and comfortable atmosphere while you wait for your appointment.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <div className="relative h-64 rounded-lg overflow-hidden cursor-pointer group">
+                      <Image 
+                        src={placeholderImages.office.waitingArea.src} 
+                        alt={placeholderImages.office.waitingArea.alt} 
+                        fill 
+                        className="object-cover transition-transform duration-300 group-hover:scale-105" 
+                        data-ai-hint={placeholderImages.office.waitingArea.hint} 
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center">
+                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 px-4 py-2 rounded-lg text-sm font-semibold">
+                          Click to view full size
+                        </div>
+                      </div>
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-7xl w-[95vw] p-4 bg-black/90 border-none">
+                    <div className="relative w-full h-[85vh] rounded-lg overflow-hidden bg-black/50">
+                      <Image 
+                        src={placeholderImages.office.waitingArea.src} 
+                        alt={placeholderImages.office.waitingArea.alt} 
+                        fill 
+                        className="object-contain" 
+                        data-ai-hint={placeholderImages.office.waitingArea.hint} 
+                      />
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
 
       {/* Testimonials Section */}
       <section id="testimonials" className="bg-secondary/20 subtle-bg">
